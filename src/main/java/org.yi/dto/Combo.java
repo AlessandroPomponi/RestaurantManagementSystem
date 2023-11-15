@@ -1,5 +1,9 @@
 package org.yi.dto;
 
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
 @ToString
 @Setter
 @Getter
@@ -27,7 +31,7 @@ public class Combo {
         } else if (dishes[1] == null) {
             dishes[1] = dish;
         } else {
-            System.out.println("There are already %d dishes, add dishes failed", MAX_DISH_NUM);
+            System.out.printf("There are already %d dishes, add dishes failed", MAX_DISH_NUM);
         }
     }
 

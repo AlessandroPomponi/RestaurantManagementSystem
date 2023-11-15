@@ -14,5 +14,6 @@ public class Main {
         restaurantManagementSystem.addCombo(cokeAndFries);
 
         System.out.println(restaurantManagementSystem);
+        }
     }
 }

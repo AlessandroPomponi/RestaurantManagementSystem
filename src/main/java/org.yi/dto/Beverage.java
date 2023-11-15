@@ -1,5 +1,12 @@
 package org.yi.dto;
 
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@ToString
+@Getter
+@Setter
 public class Beverage {
     private static int nextId = 1;
     private String id;
